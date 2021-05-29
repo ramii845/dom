@@ -1,0 +1,30 @@
+/*
+div, p{
+    display: inline-block;
+}
+.shop{
+    display: block;
+}
+section.card-shop {
+    background: red;
+    margin: 146px auto 0;
+    width: 70%;
+}
+.shopping{
+    margin-right: 20px;
+    background: red;
+}
+i.fas.fa-heart{
+    margin-right: 20px;
+    display: inline-block;
+}*/
+p.shopping {
+    display: inline-block;
+    margin-right: 30px;
+}
+i.fas.fa-heart {
+    margin-right: 20px;
+}
+.shop{
+    border-bottom: red;
+}

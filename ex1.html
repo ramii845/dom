@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="ex1.css" rel="stylesheet">
+<meta charset="utf-8" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<title>Titre de la page</title>
+</head>
+<body>
+    <div class="container">
+<section class="card-shop">
+ <div class="shop">
+     <p class="shopping">Shopping bag total</p><span id="totale">0</span> <span>$</span>
+</div>
+<div class="part1" id="part1">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+    <div class="icone">
+     <i class="fas fa-heart" id="heart" onclick="heart()"></i>
+    <i class="fas fa-theater-masks" onclick="remove1()"></i>
+    </div>
+        </div>
+        <div class="col-md-4">
+   
+  <div>
+    <img src="image1.jpg" widh="60px" height="60px">
+    <span>sbedri white</span>
+      </div>
+            </div>
+         <div class="col-md-2">
+    <div class="btn">
+        <span onclick="ajoutMontant1()">+</span>
+        <span id="nbre-qtn1">0</span>
+        <span onclick="dimunueMontant1()">-</span>
+    </div>
+              </div>
+        <div class="col-md-3">
+    <div>
+        <span id="prix1">0</span> 
+    <span>$</span>
+    </div>
+      </div>
+</div>
+    </div>
+    
+</section>
+        </div>
+    <div class="container">
+<section class="card-shop">
+ <div class="shop">
+     <p class="shopping">Shopping bag total</p><span id="totale">0</span> <span>$</span>
+</div>
+<div class="part2" id="part2">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+    <div class="icone">
+     <i class="fas fa-heart" id="heart2" onclick="heartt()"></i>
+    <i class="fas fa-theater-masks" id="d2" onclick="remove2()"></i>
+    </div>
+        </div>
+        <div class="col-md-4">
+   
+  <div>
+    <img src="image4.jpg" widh="60px" height="60px">
+    <span>sbedri black </span>
+      </div>
+            </div>
+         <div class="col-md-2">
+    <div class="btn">
+        <span  onclick="ajoutMontant2()">+</span>
+        <span iid="nbre-qtn2">0</span>
+        <span onclick="dimunueMontant2()">-</span>
+    </div>
+              </div>
+        <div class="col-md-3">
+    <div>
+        <span id="prix2">0</span> 
+    <span>$</span>
+    </div>
+      </div>
+</div>
+    </div>
+    
+</section>
+        </div>
+      <div class="container">
+<section class="card-shop">
+ <div class="shop">
+     <p class="shopping">Shopping bag total</p><span id="totale">0</span> <span>$</span>
+</div>
+<div class="part3" id="part3">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+    <div class="icone">
+     <i class="fas fa-heart" id="heart3" onclick="hearttt()"></i>
+    <i class="fas fa-theater-masks" onclick="remove3()"></i>
+    </div>
+        </div>
+        <div class="col-md-4">
+   
+  <div>
+    <img src="image3.jpg" widh="60px" height="60px">
+    <span>sbedri red</span>
+      </div>
+            </div>
+         <div class="col-md-2">
+    <div class="btn">
+        <span   onclick="ajoutMontant3()">+</span>
+        <span id="nbre-qtn3">0</span>
+        <span onclick="dimunueMontant3()" >-</span>
+    </div>
+              </div>
+        <div class="col-md-3">
+    <div>
+        <span id="prix3">0</span> 
+    <span>$</span>
+    </div>
+      </div>
+</div>
+    </div>
+    
+</section>
+    </div>
+      <script src="./ex1.js"></script> 
+</body>
+</html>
